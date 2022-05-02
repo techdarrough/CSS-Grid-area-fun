@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-areas:
+     "header header header header"
+     "sidebar main main main"
+     "photo photo photo button"
+     "footer footer footer footer";
+}
+
+.item {
+background-color: #051829;
+color: #e77676;
+text-align: center;
+padding: 10px;
+}
+
+.header {
+    grid-area: header;
+}
+
+sidebar {
+    grid-area:sidebar;
+}
+
+.main { 
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.photo {
+    grid-area: photo;
+}
+
+.buy-button {
+    grid-area: button;
+}
